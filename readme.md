@@ -15,7 +15,11 @@ As etapas a seguir devem ser feitas antes de qualquer comando Terraform:
 
             terraform destroy
 
+## Observações
+ - O RDS está setado para barrar acesso público
+ - A EC2 está setada para subir sem IP Público por uma subnet criada especificamente para não associar Ips públicos.
 
+ 
 ## Imagem ECR do projeto
 
 public.ecr.aws/k9h7w1h6/devops_teste:latest
