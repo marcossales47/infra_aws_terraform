@@ -3,7 +3,7 @@ variable "ami_aws" {
 }
 
 variable "s3_bucket_name" {
-  default = "TesteDevOps"
+  default = "testesdevops-tisaude"
 }
 
 variable "regiao_aws" {
