@@ -1,3 +1,4 @@
+# Requerindo ambiente aws
 terraform{
 
     required_providers {
@@ -6,10 +7,9 @@ terraform{
         version = "~> 4.53.0"
       }
     }
-
-
 }
 
+# provisionando cloud..
 provider "aws" {
   region = var.regiao_aws
 }
